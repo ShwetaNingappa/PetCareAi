@@ -1,0 +1,11 @@
+{
+  "name": "project-root",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev-runner.js",
+    "test-frontend": "npm test --prefix frontend-react -- --watchAll=false"
+  }
+}
